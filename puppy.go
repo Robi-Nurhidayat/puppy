@@ -10,6 +10,6 @@ func Barks() string {
 	return "Woof woof wof"
 }
 
-func test() string {
-	return dog.WhenGrowUp("testtttt")
+func Test() string {
+	return "test"
 }
