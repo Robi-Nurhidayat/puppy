@@ -1,6 +1,6 @@
 package puppy
 
-
+import "github.com/Robi-Nurhidayat/dog"
 
 func Bark() string {
 	return "Woof"
@@ -11,5 +11,5 @@ func Barks() string {
 }
 
 func Test() string {
-	return "test"
+	return dog.WhenGrowUp(Bark())
 }
